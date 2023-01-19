@@ -2,7 +2,6 @@ import React from 'react';
 import "./video-react.css";
 import { Player, BigPlayButton } from 'video-react';
 import {Grid,  CardContent, Card, Divider} from '@mui/material';
-import { Description } from '@mui/icons-material';
 const aulas = [
   {
     title: 'Aula 01 - Iniciando o projeto de ponta a ponta',
