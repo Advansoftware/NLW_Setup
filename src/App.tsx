@@ -2,6 +2,9 @@ import React from 'react';
 import "./video-react.css";
 import { Player, BigPlayButton } from 'video-react';
 import {Grid,  CardContent, Card, Divider} from '@mui/material';
+import Typography from '@mui/material/Typography';
+import { Box } from '@mui/system';
+
 const aulas = [
   {
     title: 'Aula 01 - Iniciando o projeto de ponta a ponta',
@@ -22,15 +25,25 @@ const aulas = [
     description: 'Já estamos em órbita! Chegamos na metade da nossa missão explorando ferramentas e tecnologias. E nesta aula vamos dar vida às telas da aplicação tanto na versão web com React quanto mobile com React Native. Vamos utilizar o Tailwind anexado à outras bibliotecas visuais para criar as telas de criação de hábito e detalhamento do dia e aproveitar para melhorar a usabilidade e acessibilidade da nossa aplicação.',
   }
 ];
+
 function App() {
 
   return (
-    <Grid container>  
+    
+    <Grid container mt={9}>  
       {aulas.map((video, index)=>(
         <React.Fragment key={index}>
-          <Grid item md={6} >
+          <Grid item md={6} xs={12} mt={2}> 
+            <Typography variant="h5">
+              {video.title}
+            </Typography>
+            <Box p={2}>
+            <Typography variant="body1">
+              {video.description}
+            </Typography>
+            </Box>
           </Grid>
-          <Grid item md={6}>
+          <Grid item md={6} xs={12}>
             <Grid container>
               <Grid item m={2} xs={12} >
                 <Card>
@@ -44,7 +57,7 @@ function App() {
             </Grid>
           </Grid>
           <Grid item xs={12}>
-            <Divider/>
+            <Divider color="#ccc"/>
           </Grid>
         </React.Fragment>
       ))}
@@ -53,6 +66,7 @@ function App() {
           
         
     </Grid>
+
   )
 }
 
