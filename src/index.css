@@ -7,7 +7,10 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
+  background-image:url('./wallpaper.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,9 +24,12 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  /* color: #535bf2; */
 }
-
+.card{
+  background-color: transparent !important;
+  backdrop-filter: blur(10px)  brightness(60%);
+}
 
 @media (prefers-color-scheme: light) {
   :root {
