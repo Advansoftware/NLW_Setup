@@ -51,8 +51,9 @@ const opts = {
   width: '100%',
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
+    enablejsapi: 1,
     autoplay: 0,
-    origin: 'https://react-ebd8c.web.app/',
+    origin: 'https://react-ebd8c.web.app',
   }
 };
 function App() {
