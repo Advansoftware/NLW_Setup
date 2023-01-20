@@ -52,7 +52,8 @@ const opts = {
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
     autoplay: 0,
-  },
+    origin: 'https://react-ebd8c.web.app/',
+  }
 };
 function App() {
   const [value, setValue] = useState<string>('1');
