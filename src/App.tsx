@@ -23,7 +23,7 @@ const aulas = [
     link: "Videos/aula-03.mp4",
     poster: 'Videos/poster_03.jpg',
     description: 'Já estamos em órbita! Chegamos na metade da nossa missão explorando ferramentas e tecnologias. E nesta aula vamos dar vida às telas da aplicação tanto na versão web com React quanto mobile com React Native. Vamos utilizar o Tailwind anexado à outras bibliotecas visuais para criar as telas de criação de hábito e detalhamento do dia e aproveitar para melhorar a usabilidade e acessibilidade da nossa aplicação.',
-  }
+  },
   {
     title: "Aula 04 - Conectando a API",
     link: "Videos/aula-04.mp4",
