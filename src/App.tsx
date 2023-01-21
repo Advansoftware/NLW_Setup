@@ -44,6 +44,13 @@ export const aulas: aulas[] = [
     ytId: "uDaO3ioTo88",
     poster: 'Videos/poster_04.jpg',
     description: 'Quase lá! Estamos nos aproximando do final da nossa missão. Nessa aula vamos conectar todas as pontas integrando a API RESTful que desenvolvemos com Node.js aos nossos projetos em REact e React Native utilizando Axios e outras bibliotecas auxiliares.',
+    },
+    {
+      id: '5',
+      title: "Aula 05 - O próximo nível",
+      ytId: "cChDFxg62yo",
+      poster: 'Videos/poster_05.jpg',
+      description: 'O próximo nível está cada vez mais próximo. Nesta última aula prática vamos evoluir ainda mais a nossa aplicação, criando novas funcionalidades e adicionando animações e efeitos especiais pra finalizar o projeto (e a missão) com chave de ouro.',
     }
 ];
 const opts = {
